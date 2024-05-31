@@ -1,0 +1,1591 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 50px;
+    background-color: #fffaeb;
+}
+.unknow{
+    z-index: -999;
+    position: absolute;
+    left: 0;
+    top: 100px;
+}
+.unknow img{
+    height: 100vh;
+    width: 50vw;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    top: 20px;
+    border-bottom: 1px solid rgb(186, 186, 186, 0.5);
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 00px;
+    z-index: 999;
+}
+nav a .logo
+{
+    height: 40px;
+}
+
+
+/* <------------- next page -------------> */
+
+
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 250px 0;
+}
+main .buttons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 55vw;
+    margin: 30px 0;
+}
+main p
+{
+    font-size: 1.5vw;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: #F9B800;
+}
+main h1
+{
+    font-size: 3.8vw;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+.hidin
+{
+    display: none;
+}
+.buttons button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 18px;
+    border-radius: 30px;
+    border: none;
+}
+.buttons button a
+{
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #000;
+}
+.buttons button i
+{
+    color: #F9B800;
+    font-size: 1.3em;
+}
+main .btn-1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: #F9B800;
+}
+.btn-1 img{
+    transition: 0.8s ease;
+}
+main .btn-1:hover img
+{
+    transform: translateX(20px);
+}
+.btn-1 a
+{
+    font-size: 1.2em;
+    color: #000;
+    text-decoration: none;
+
+}
+
+
+
+
+/* ---------------- page-1 ------------------*/
+
+
+
+
+.unknow-1{
+    z-index: -999;
+    position: absolute;
+    right: 0;
+    top: 1000px;
+}
+
+.page-1
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 50px;
+    width: 85vw;
+    height: 55vh;
+    border-radius: 50px;
+    background-color: #F9B800;
+    margin: 80px 0;
+}
+
+.page-1 .texts-1{
+    width: 33vw;
+
+}
+.texts-1 h2
+{
+    font-size: 1.8vw;
+    padding: 0 230px 0 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    margin: 0 0 40px 0;
+}
+.texts-1 .link-1
+{
+    margin: 0 0 10px 0;
+}
+.texts-1 .link-1 a
+{
+    font-size: .8vw;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #000;
+}
+.texts-1 p
+{
+    font-size: .8vw;
+    padding: 0 100px 20px 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.texts-1 button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: #000;
+}
+.texts-1 button a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.texts-1 button img
+{
+    transition: .8s ease; 
+}
+.texts-1 button:hover img
+{
+    transform: translateX(15px);
+}
+.page-1 .imgs-1 img
+{
+    height: 60vh;
+    width: 30vw;
+}
+
+
+
+/* ---------------- page-1 ------------------*/
+
+
+
+.page-2
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 50px;
+    width: 85vw;
+    height: 60vh;
+    border-radius: 50px;
+    background-color: #262626;
+    margin: 80px 500px;
+}
+.boxs{
+    position: relative;
+    top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.bicon
+{
+    background-color: #F9B800;
+    height: 28vh;
+    width: 13vw;
+    border-radius: 30px;
+    padding: 25px;
+}
+.bicon img
+{
+    height: 5vh;
+    width: 3vw;
+}
+.bicon h2{
+    font-size: 3em;
+    margin: 10px 0 ;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+.bicon h3{
+    font-size: 1.1em;
+    margin: 5px 0 ;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.bicon h4{
+    font-size: .9em;
+    margin: 5px 0 ;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.bicon p{
+    font-size: .7em;
+    margin: 5px 0 ;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+.dot-1{
+    color: #F9B800;
+}
+.dot-2{
+    color: white;
+}
+.boxx{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.boss{
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.box-1{
+    background-color: #fff;
+}
+
+.texts-2 p
+{
+    color: #F9B800;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.texts-2 h2
+{
+    color: #fff;
+    font-size: 2.8em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+.texts-2 button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 8px 50px;
+    border-radius: 30px;
+    border: none;
+    margin: 50px 0;
+}
+.texts-2 button a
+{
+    font-size: 1.4em;
+    text-decoration: none;
+    color: #000;
+}
+.texts-2 button img
+{
+    transition: 0.8s ease; 
+}
+.texts-2 button:hover img
+{
+    transform: translateX(10px);
+}
+
+
+
+/* ---------------- page-2 ------------------*/
+
+
+
+.page-3
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    width: 85vw;
+    height: 45vh;
+    border-radius: 50px;
+    background-color: #fff;
+    margin: 180px 0;
+}
+
+
+.page-3 .two h2
+{
+    font-size: 2.5vw;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.page-3 .two p
+{
+    font-size: 1.3em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    padding: 30px 0 0 0;
+    width: 45vw;
+}
+.page-3 .one img
+{
+    height: 70%;
+    width: 70%;
+}
+.page-3 .two h3
+{
+    font-size: 1.1vw;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    padding: 30px 0;
+}
+.page-3 .two .img-10
+{
+    display: flex;
+    gap: 50px;
+}
+.unknow-2{
+    z-index: -999;
+    position: absolute;
+    left: 0;
+    top: 2100px;
+}
+
+
+
+
+/* <--------------- next page --------------> */
+
+
+
+
+.page-4
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+    width: 85vw;
+    height: 65vh;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.page-4 .lorem
+{
+    width: 50%;
+}
+.lorem h2
+{
+    font-size: 1.8vw;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    padding: 0 0 20px 0;
+} 
+.lorem .hide
+{
+    display: none;
+}
+.lorem .button-5
+{
+    width: 24vw;
+    margin: 10px 0 40px 0;
+}
+
+.lorem .button-5 button
+{
+
+    margin: 5px 0;
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: none;
+    background-color: #fffaeb;
+}
+
+.lorem .button-5 i
+{
+    color: #F9B800;
+    font-size: 1.2em;
+    padding: 0 10px 0 0;
+}
+.button-5 button a
+{
+    font-size: 1em;
+    color: #000;
+    text-decoration: none;
+}
+
+.lorem .btn-2
+{
+    padding: 10px 40px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: #F9B800;
+}
+.btn-2 a
+{
+    font-size: .9vw;
+    text-decoration: none;
+    color: #000;
+}
+
+.page-4 .img-5 img
+{
+    height: 60vh;
+    width: 30vw;
+}
+
+.unknow-3{
+    z-index: -999;
+    position: absolute;
+    right: 0;
+    top: 3200px;
+}
+
+
+
+/* <--------------- next page --------------> */
+@media (max-width:1705px)
+{
+
+    .page-4
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    width: 85vw;
+    height: 65vh;
+    border-radius: 50px;
+    background-color: #fff;
+    margin-bottom: 000px;
+
+}
+
+
+}
+/* <--------------- next page --------------> */
+
+@media (max-width:1440px) {
+    main .buttons
+        {
+        width: 80vw;
+    }
+    .unknow img{
+        height: 100vh;
+        width: 80vw;
+    }
+    .unknow-1 img
+    {
+        height: 100vh;
+        width: 80vw;
+    }
+    .unknow-2 img
+    {
+        height: 100vh;
+        width: 80vw;
+    }
+    .unknow-3 img
+    {
+        height: 100vh;
+        width: 80vw;
+    }
+
+    .page-1 .texts-1{
+        width: 35vw;
+    }
+    .texts-1 h2
+    {
+        font-size: 2vw;
+        padding: 0 80px 0 0;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+        margin: 0 0 40px 0;
+    }
+
+    .texts-1 .link-1 a
+{
+    font-size: 1vw;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #000;
+}
+.texts-1 p
+{
+    font-size: 1vw;
+    padding: 0 100px 20px 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+    
+    .page-1 .imgs-1 img
+    {
+        height: 60vh;
+        width: 30vw;
+    }
+
+    .texts-1 button
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 30px;
+        background-color: #000;
+    }
+    .texts-1 button a
+    {
+        text-decoration: none;
+        color: #fff;
+        font-size: 15px;
+    }
+    .texts-1 button img
+    {
+        height: 15px;
+        transition: .8s ease; 
+    }
+
+
+
+    /* <--------------- next page --------------> */
+
+    .bicon
+    {
+        height: 24vh;
+        width: 15vw;
+        padding: 15px;
+    }
+
+    .bicon h2{
+        font-size: 2.2em;
+        margin: 0px 0 ;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+    }
+    .bicon h3{
+        font-size: .9em;
+        margin: 5px 0 ;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+    }
+    .bicon h4{
+        font-size: .7em;
+        margin: 5px 0 ;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+    }
+    .bicon p{
+        font-size: .6em;
+        margin: 5px 0 ;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+    }
+
+    .texts-2
+    {
+        margin-top: 100px;
+    }
+
+    .texts-2 p
+    {
+        color: #F9B800;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+    }
+    .texts-2 h2
+    {
+        color: #fff;
+        font-size: 2.5vw;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+    }
+    .texts-2 button
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding: 8px 50px;
+        border-radius: 30px;
+        border: none;
+        margin: 50px 0;
+    }
+    .texts-2 button a
+    {
+        font-size: 1.1vw;
+        text-decoration: none;
+        color: #000;
+    }
+
+
+
+
+    .page-4 .lorem
+{
+    width: 35%;
+}
+.lorem h2
+{
+    font-size: 2.2vw;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+} 
+
+.btn-2 a
+{
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+}
+
+
+
+
+
+
+/* <--------------- next page --------------> */
+
+
+@media (max-width:1000px)
+{
+    .page-1
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 50px;
+    width: 85vw;
+    height: 40vh;
+    border-radius: 50px;
+    background-color: #F9B800;
+    margin: 0px 0;
+}
+
+.page-1 .texts-1{
+    width: 60vw;
+
+}
+.texts-1 h2
+{
+    font-size: 2.1vw;
+    padding: 0 100px 0 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    margin: 0 0 30px 0;
+}
+
+.texts-1 .link-1 a
+{
+    font-size: 1.6vw;
+}
+.texts-1 p
+{
+    font-size: 1.5vw;
+    padding: 0 0px 20px 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.texts-1 button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #000;
+}
+.texts-1 button a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.page-1 .imgs-1 img
+{
+    height: 45vh;
+    width: 35vw;
+}
+
+
+/* <--------------- next page --------------> */
+
+
+.page-2
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 50px;
+    width: 85vw;
+    height: 55vh;
+    border-radius: 50px;
+    background-color: #262626;
+    margin: 80px 500px;
+    gap: 50px;
+}
+.boxs{
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.bicon
+    {
+        height: 24vh;
+        width: 20vw;
+        padding: 20px;
+    }
+
+    .bicon h2{
+        font-size: 2.2em;
+        margin: 0px 0 ;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+    }
+    .bicon h3{
+        font-size: .9em;
+        margin: 5px 0 ;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+    }
+    .bicon h4{
+        font-size: .7em;
+        margin: 5px 0 ;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+    }
+    .bicon p{
+        font-size: .6em;
+        margin: 5px 0 ;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+    }
+    .bicon img
+    {
+        margin: 0 0 15px 0;
+    }
+
+    .texts-2
+    {
+        margin: 100px 0 0 10px;
+    }
+
+    .texts-2 p
+    {
+        color: #F9B800;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: .9em;
+        padding: 20px 0;
+    }
+    .texts-2 h2
+    {
+        color: #fff;
+        font-size: 2.3vw;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+    }
+    .texts-2 button
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 8px 20px;
+        border-radius: 30px;
+        border: none;
+        margin: 50px 0;
+    }
+    .texts-2 button a
+    {
+        font-size: 1.5vw;
+        text-decoration: none;
+        color: #000;
+    }
+
+
+
+/* <--------------- next page --------------> */
+
+
+
+    .page-3
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 50px;
+    width: 85vw;
+    height: 45vh;
+    border-radius: 50px;
+    background-color: #fff;
+    margin: 100px 0;
+}
+.page-3 .one img
+{
+    height: 70%;
+    width: 70%;
+}
+
+.page-3 .two h2
+{
+    font-size: 3.2vw;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.page-3 .two p
+{
+    font-size: 1.4vw;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    padding: 30px 0 0 0;
+}
+.page-3 .two h3
+{
+    font-size: 1.6em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    padding: 30px 0;
+}
+
+
+
+
+
+.page-4
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    width: 85vw;
+    height: 55vh;
+    border-radius: 50px;
+    background-color: #fff;
+    margin-bottom: 00px;
+
+}
+.page-4 .lorem
+{
+    width: 50%;
+}
+.lorem h2
+{
+    font-size: 3vw;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+} 
+.show
+{
+    display: none;
+}
+.lorem .hide
+{
+    display: block;
+}
+.page-4 .img-5 img
+{
+    height: 40vh;
+    width: 30vw;
+}
+
+
+
+
+}
+
+
+/* <--------------- next page --------------> */
+
+
+@media (max-width:800px) {
+    main p
+    {
+        font-size: 1.1em;
+
+    }
+    main h1
+    {
+        font-size: 1.8em;
+    }
+    main .buttons
+    {
+        width: 40vw;
+    }
+
+
+
+
+
+
+    .texts-1 button
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 30px;
+        background-color: #000;
+    }
+    .texts-1 button a
+    {
+        text-decoration: none;
+        color: #fff;
+        font-size: 15px;
+    }
+    .texts-1 button img
+    {
+        height: 15px;
+        transition: .8s ease; 
+    }
+
+
+
+
+/* <--------------- next page --------------> */
+
+
+
+
+    .page-2
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 50px;
+    width: 85vw;
+    height: 55vh;
+    border-radius: 50px;
+    background-color: #262626;
+    margin: 50px 500px;
+    gap: 50px;
+}
+.boxs{
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.bicon
+    {
+        height: 24vh;
+        width: 21vw;
+        padding: 20px;
+    }
+
+    .bicon h2{
+        font-size: 2.2em;
+        margin: 0px 0 ;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+    }
+    .bicon h3{
+        font-size: .9em;
+        margin: 5px 0 ;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+    }
+    .bicon h4{
+        font-size: .7em;
+        margin: 5px 0 ;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+    }
+    .bicon p{
+        font-size: .6em;
+        margin: 5px 0 ;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+    }
+
+    .texts-2
+    {
+        margin-top: 0px;
+    }
+
+    .texts-2 p
+    {
+        font-size: .8em;
+        color: #F9B800;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        padding: 0 0 10px 0;
+    }
+    .texts-2 h2
+    {
+        color: #fff;
+        font-size: 1em;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+        padding: 15px 0;
+    }
+    .texts-2 button
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        height: 50px;
+        padding: 0;
+        width: 150px;
+        border-radius: 30px;
+        border: none;
+        margin: 10px 0;
+    }
+    .texts-2 button a
+    {
+        font-size: 1em;
+        text-decoration: none;
+        color: #000;
+    }
+
+
+
+
+
+}
+
+
+/* <--------------- next page --------------> */
+
+
+@media (max-width:600px) {
+    body
+    {
+        padding: 20px 30px;
+    }
+
+    main
+    {
+        margin: 50px 0 ;
+    }
+
+    main .btn-1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        padding: 15px 30px;
+    }
+    .buttons button
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        padding: 5px 18px;
+    }
+    .buttons button a
+    {
+        font-size: 1.1em;
+    }
+
+    main .buttons
+    {
+        width: 70vw;
+    }
+    main .btn-1
+    {
+        padding: 10px 100px;
+    }
+
+
+/*---------------------------------------------*/
+
+    .page-1
+    {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        padding: 0px 50px;
+        width: 85vw;
+        height: 100vh;
+        border-radius: 50px;
+        background-color: #F9B800;
+        margin: 0px 0;
+    }
+    .page-1 .texts-1{
+        order: 1;
+        text-align: center;
+        margin-top: -100px;
+    }
+    .texts-1 h2
+{
+    font-size: 1.5em;
+    text-wrap: wrap;
+    padding: 0 0px 0 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+}
+
+.texts-1 .link-1 a
+{
+    font-size: 1em;
+}
+.texts-1 p
+{
+    font-size: 1em;
+    padding: 0 0px 20px 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.texts-1 button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 30px;
+    border: none;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: #000;
+}
+.texts-1 button a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.page-1 .imgs-1 img
+{
+    height: 50vh;
+    width: 80vw;
+}
+
+
+/* -------------next page-------------*/
+
+
+
+.page-2
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 50px;
+    width: 85vw;
+    height: 100vh;
+    border-radius: 50px;
+    background-color: #262626;
+    margin: 80px 500px;
+    gap: 50px;
+}
+.boxs{
+    position: static;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    order: 1;
+}
+.boss{
+    position: static;
+}
+.bicon
+    {
+        height: 25vh;
+        width: 30vw;
+        padding: 15px;
+    }
+    .bicon img
+    {
+        width: 2.5em;
+    }
+    .bicon h2{
+        font-size: 2.2em;
+        margin: 0px 0 ;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+    }
+    .bicon h3{
+        font-size: .9em;
+        margin: 5px 0 ;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+    }
+    .bicon h4{
+        font-size: .7em;
+        margin: 5px 0 ;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+    }
+    .bicon p{
+        font-size: .6em;
+        margin: 5px 0 ;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+    }
+
+    .texts-2
+    {
+        margin-top: 0px;
+    }
+
+    .texts-2 p
+    {
+        font-size: 2.5vw;
+        text-align: center;
+        color: #F9B800;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+    }
+    .texts-2 h2
+    {
+        text-align: center;
+        color: #fff;
+        font-size: 5vw;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+    }
+    .texts-2 button
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 8px 30px;
+        border-radius: 30px;
+        border: none;
+        margin: 10px auto;
+    }
+    .texts-2 button a
+    {
+        font-size: 1.2em;
+        text-decoration: none;
+        color: #000;
+    }
+
+
+
+    .page-3
+    {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 50px;
+        width: 85vw;
+        height: 100%;
+        border-radius: 50px;
+        background-color: #fff;
+        margin: 0px 0;
+    }
+    .page-3 .one img
+    {
+        height: 80%;
+        width: 100%;
+    }
+    
+    .page-3 .two h2
+    {
+        text-align: center;
+        font-size: 5.5vw;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+    }
+    .page-3 .two p
+    {
+        text-align: center;
+        font-size: 2.5vw;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+        padding: 30px 0 0 0;
+    }
+    .page-3 .two h3
+    {
+        text-align: center;
+        font-size: 3vw;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        padding: 30px 0;
+    }
+
+    .page-3 .two .img-10
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+
+
+
+
+    .page-4
+    {
+        margin: 80px 0;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .page-4 .lorem
+{
+    order: 1;
+    width: 100%;
+}
+    .lorem h2
+    {
+        font-size: 4vw;
+        text-align: center;
+    }
+    .hide
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .page-4 .img-5 img
+    {
+        height: 100%;
+        width: 100%;
+    }
+    .lorem .btn-2
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .btn-2 a 
+    {
+        font-size: 1.2em;
+    }
+    nav
+    {
+        padding: 0 0px;
+    }
+    .lorem .button-5 button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffaeb;
+    margin: 10px auto;
+}
+}
+
+
+/* -------------next page-------------*/
+
+
+
+
+@media (max-width:463px) {
+
+    main{
+        margin: 50px 0;
+    }
+
+    .hidin
+    {
+        display: inline-block;
+    }
+    .buttons button a
+    {
+        font-size: .9em;
+    }
+    main p
+    {
+        font-size: 3vw;
+    
+    }
+    main h1
+    {
+        width: 100%;
+        font-size: 7vw;
+        text-align: center;
+    }
+    main .btn-1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        padding: 10px 80px;
+    }
+    main .buttons
+    {
+        width: 70vw;
+    }
+    main .btn-1 a
+    {
+        font-size: 1.1em;
+    }
+
+
+
+/* -------------next page-------------*/
+
+
+
+    .page-2
+    {
+        height: 100%;
+        padding: 20px 20px;
+        width: 85vw;
+    }
+    .boxs
+    {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .bicon
+    {
+        width: 75vw;
+        height: 28vh;
+        padding: 15px 30px;
+    }
+    .boxx{
+        gap: 20px;
+    }
+    .boss{
+        gap: 20px;
+    }
+    .bicon img
+    {
+        height: 5vh;
+        width: 10vw;
+    }
+    .bicon img
+    {
+        width: 2.8em;
+    }
+    .bicon h2{
+        font-size: 3em;
+        margin: 0px 0 ;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+    }
+    .bicon h3{
+        font-size: 1.1em;
+        padding: 7px 0;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+    }
+    .bicon h4{
+        font-size: .9em;
+        margin: 5px 0 ;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+    }
+    .bicon p{
+        font-size: .6em;
+        margin: 5px 0 ;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+    }
+    .texts-2 p
+    {
+        line-height: 20px;
+        font-size: .76em;
+        padding: 15px 0;
+        text-align: center;
+        color: #F9B800;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+    }
+    .texts-2 h2
+    {
+        padding: 0 0 20px 0;
+        font-size: 1.5em;
+    }
+    .texts-2 button
+    {
+        padding: 15px 45px ;
+    }
+    .unknow-3{
+        z-index: -999;
+        position: absolute;
+        right: 0;
+        top: 4350px;
+    }
+
+}

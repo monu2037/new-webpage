@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.mobile
+{
+    display: none;
+}
+
+
+.page-5 
+{
+    margin: 80px 0;
+    width: 85vw;
+}
+.page-5 .vitae 
+{
+    font-size: 3.5vw;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+.page-5 .vitae-1
+{
+    font-size: 1.5vw;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+
+.page-5 .ironic
+{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    margin: 20px 0;
+    height: 100px;
+    border-radius: 20px;
+}
+.page-5 .container-1
+{
+    height: 150px;
+    padding: 10px 65px 10px 50px;
+}
+
+.page-5 .container-1 .textss p
+{
+    font-size: 1.05em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    width: 50vw;
+    padding: 15px 0;
+    color: #000;
+}
+
+.page-5 .ironic h3
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+footer
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 100px;
+    width: 85vw;
+    height: 30vh;
+    border-radius: 50px;
+    background-color: #000;
+    margin: 50px 0;
+}
+footer .last-1
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: .5px solid #a3a3a37f;
+    padding: 0 0 50px 0;
+}
+.last-1 h2
+{
+    font-size: 2.5em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.last-1 button
+{
+    padding: 10px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border: none;
+    border-radius: 30px;
+}
+.last-1 button a
+{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+}
+.last-1 button img
+{
+    transition: 0.8s ease;
+}
+.last-1 button:hover img
+{
+    transform: translateX(15px);
+}
+
+.last-2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.last-2 .aa
+{
+    font-size: .9em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.last-2 .bb
+{
+    font-size: .9em;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.hiddin
+{
+    display: none;
+}
+
+
+@media (max-width: 1440px)
+{
+    .last-1 h2
+    {
+        font-size: 1.8em;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        color: white;
+    }
+}
+@media (max-width: 1000px)
+{
+    .last-1 h2
+    {
+        font-size: 1.2em;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        color: white;
+    }
+
+    .last-1 button
+{
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: none;
+    border-radius: 30px;
+}
+.last-1 button a
+{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+}
+
+footer
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 50px;
+    width: 85vw;
+    height: 25vh;
+    border-radius: 50px;
+    background-color: #000;
+    margin: 50px 0;
+}
+footer .last-1
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: .5px solid #a3a3a37f;
+    padding: 0 0 30px 0;
+}
+.last-2 .aa
+{
+    font-size: .8em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.last-2 .bb
+{
+    font-size: .8em;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.page-5 .container-1
+{
+    height: 200px;
+} 
+
+}
+
+
+@media (max-width: 700px)
+{
+
+    .page-5 .container-1 .textss p
+    {
+        font-size: .9em;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+        width: 50vw;
+        padding: 15px 0;
+        color: #000000;
+    }
+
+
+
+    .last-1 h2
+    {
+        font-size: 1em;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        color: white;
+    }
+    
+        .last-1 button
+    {
+        padding: 10px 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        border: none;
+        border-radius: 30px;
+    }
+    .last-1 button a
+    {
+        font-size: 1em;
+        text-decoration: none;
+        color: black;
+    }
+    
+    footer
+    {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        padding: 0px 40px;
+        width: 85vw;
+        height: 25vh;
+        border-radius: 50px;
+        background-color: #000;
+        margin: 40px 0;
+    }
+    footer .last-1
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        border-bottom: .5px solid #a3a3a37f;
+        padding: 0 0 25px 0;
+    }
+    .last-2 .aa
+    {
+        font-size: .65em;
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+    }
+    .last-2 .bb
+    {
+        font-size: .65em;
+        color: rgba(255, 255, 255, 0.6);
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .page-5 .ironic h3
+    {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+    }
+    footer
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 100px;
+    width: 85vw;
+    height: 30vh;
+    border-radius: 50px;
+    background-color: #000;
+    margin: 20px 0;
+}
+    footer .last-1 h2
+    {
+        font-size: 1em;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .last-1 button
+    {
+    padding: 5px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #F9B800;
+    }
+    .last-1 button a
+    {
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+    }
+
+    footer
+    {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 40px;
+    width: 100%;
+    height: 25vh;
+    border-radius: 50px;
+    background-color: #000;
+    margin: 40px 0;
+    }
+    footer .last-1
+    {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: .5px solid #a3a3a37f;
+    padding: 0 0 15px 0;
+    }
+    .last-2 .aa
+    {
+    font-size: .5em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    }
+    .last-2 .bb
+    {
+    font-size: .5em;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    }
+    .last-2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.page-5 
+{
+    margin: 0px 0;
+    width: 85vw;
+}
+
+.page-5 .ironic
+{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    margin: 20px 0;
+    border-radius: 20px;
+}
+.ironic img
+{
+    height: 2em;
+    width: 2em;
+}
+.container-1 img
+{
+    height: .3em;
+}
+
+
+
+
+}
+
+
+
+@media (max-width: 425px) {
+    .mobile
+    {
+        display: block;
+    }
+    .page-5 .ironic h3
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: .8em;
+}
+
+.look
+{
+    display: none;
+}
+.hiddin
+{
+    display: block;
+}
+
+.page-5 .vitae 
+{
+    font-size: 2.5em;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+.page-5 .vitae-1
+{
+    padding: 15px 0;
+    font-size: 1.35em;
+    letter-spacing: .7px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+
+}
